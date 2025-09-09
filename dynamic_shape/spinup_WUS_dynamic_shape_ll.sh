@@ -47,7 +47,6 @@ use_dynamic_snow_shape = .true.
 hist_fincl1 = 'SNO_GS','SNO_DEN','SNO_SPH', 'FSA', 'FSDS', 'FSNO', 'H2OSNO', 'ABLD', 'ABLI', 'ALBGRD', 'ALBGRI', 'SNOW_DEPTH'
 hist_fincl2 = 'SNO_GS','SNO_DEN','SNO_SPH', 'FSA', 'FSDS', 'FSNO', 'H2OSNO', 'ABLD', 'ABLI', 'ALBGRD', 'ALBGRI', 'SNOW_DEPTH'
 hist_fincl3 = 'SNO_GS','SNO_DEN','SNO_SPH', 'FSA', 'FSDS', 'FSNO', 'H2OSNO', 'ABLD', 'ABLI', 'ALBGRD', 'ALBGRI', 'SNOW_DEPTH'
-
 EOF
 ./case.setup 
 ./case.build 
