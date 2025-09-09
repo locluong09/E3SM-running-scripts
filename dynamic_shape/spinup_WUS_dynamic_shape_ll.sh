@@ -22,7 +22,7 @@ echo "Delete the old folder"
 rm -rf $case_dir
 fi
 
- cd /global/homes/l/locluong/E3SM_shape/E3SM/cime/scripts/
+cd /global/homes/l/locluong/ESM_shape/E3SM/cime/scripts/
 ./create_newcase --compset ${COMPSET} --res ${RES} --case ${CASE_NAME} --script-root $case_scripts_dir --output-root ${output_dir} --compiler ${COMPILER} --mach ${MACH} --project m4986   
 cd ${case_scripts_dir}
 
